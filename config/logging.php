@@ -117,6 +117,10 @@ return [
         'emergency' => [
             'path' => storage_path('logs/laravel.log'),
         ],
+        'countrybyphoneapi' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/countrybyphoneapi/laravel.log'),
+        ],
     ],
 
 ];
