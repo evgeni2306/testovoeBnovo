@@ -14,6 +14,8 @@
 ### Create:
 url: localhost/api/visitor/create
 
+method:Post
+
 params:{
 name,
 surname,
@@ -25,6 +27,8 @@ return: visitor_id
 
 ### Update:
 url: localhost/api/visitor/update
+
+method:Post
 
 params:{
 id,
@@ -39,6 +43,8 @@ return: message = 'success'
 ### Get:
 url: localhost/api/visitor/get
 
+method:Post
+
 params:{
 id,
 
@@ -46,6 +52,8 @@ return: array
 
 ### Delete:
 url: localhost/api/visitor/delete
+
+method:Post
 
 params:{
 id,
